@@ -40,5 +40,3 @@ while video.isOpened():
         break
 video.release()
 cv2.destroyAllWindows()
-
-
