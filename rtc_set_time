@@ -2,3 +2,5 @@ sudo i2cdetect -y l (should show uu)
 sudo hwclock -r
 sudo hwclock --set --date "17Jan 2022 11:34:15"
 sudo hwclock --hctosys
+
+***Crontab pending. New file will be added for the crontab***
