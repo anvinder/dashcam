@@ -1,0 +1,19 @@
+After using the dashcam for a week here are some observations and things that need to be worked on :
+
+Observations:
+- The video is rotated 90 degree but i fixed it from vlc player : Tools > Effects and Filters > Video Effects> Geometry. 
+- other issue is that the RTC clock for some reason was not working and the date and time was always 1/1/2020. using the link in the rtc file it has been fixed and tested. 
+      Will deploy this solution and check the outcome after a couple of days. 
+- Another issue is to connect the raspberry pi zero sd card to the computer to pull the videos. had to amke cahnges to the physical case of the pi so
+      that the sd card can be taken out. 
+      There could be other solutions but at this point i'll remove the sd card to read the videos. 
+- One challenge is to read the raspian/ linux files on windows, for this there is a windows app named "Diskinternals Linux Reader". I used this to 
+      read the linux videos of dashcam on windows laptop. 
+
+
+
+Open challenges still:
+- One last observation is that the video from the dashcam appears to be running very fast. As if it is being played at 2x. The vlc player shows it is 
+      1x infact so need to figure out why does the video play fast. No jsut the car but the still people in sorroundings seem to be moving very fast. 
+      
+      
