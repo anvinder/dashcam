@@ -2,6 +2,8 @@ sudo i2cdetect -y l (should show uu)
 sudo hwclock -r
 sudo hwclock --set --date "17Jan 2022 11:34:15"
 sudo hwclock --hctosys
-
+The i2c address of the DS3231 i am using is 0x57. 
 ***Crontab pending. New file will be added for the crontab***
 
+Follow steps in the link to use RTC on bootup and to set RTC time: 
+  https://www.digikey.com/en/maker/projects/adding-a-real-time-clock-to-raspberry-pi/1d500968ed044a6792497a63d0d7c018
