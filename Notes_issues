@@ -16,4 +16,6 @@ Open challenges still:
 - One last observation is that the video from the dashcam appears to be running very fast. As if it is being played at 2x. The vlc player shows it is 
       1x infact so need to figure out why does the video play fast. No jsut the car but the still people in sorroundings seem to be moving very fast. 
       
+  Reason for the faster video is because the .h264 being used tosave the file does not know the frame rate at which to save/play the video. 
+      It needs to eb defined explicitly. I'll append the code by explicitly defining the fps for saving video. Will test after that. 
       
